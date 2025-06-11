@@ -1,11 +1,18 @@
+body{
+    color: white;
+}
 .main-menu{
-    color: black;
     font-size: large;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 .no-underline {
     text-decoration: none;
 }
-div{
-    display: flex;
-    justify-content: space-between;
+body > div{
+    background-color: #021526;
 }
