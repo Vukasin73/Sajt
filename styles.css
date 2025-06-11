@@ -49,27 +49,27 @@ nav {
 }
 
 /* Remove default ul spacing and stretch items */
-nav ul {
+nav > ul {
     list-style: none;
     display: flex;
     justify-content: stretch;
-    align-items: stretch;      /* Ensures all <li> are same height */
+    align-items: stretch;      
     padding: 0;
     margin: 0;
-    height: 100%;              /* Ensures children fill the nav height */
+    height: 100%;    
 }
 
-nav ul li {
+nav > ul > li {
     flex: 1;
     margin: 0;
-    display: flex;             /* Make <li> a flex container */
-    align-items: stretch;      /* Children (<a>) stretch to full height */
+    display: flex;
+    align-items: stretch;      
 }
 
-nav ul li a {
-    display: flex;             /* Make <a> a flex container */
-    align-items: center;       /* Vertically center text */
-    justify-content: center;   /* Horizontally center text */
+nav > ul > li > a {
+    display: flex;             
+    align-items: center;       
+    justify-content: center;   
     width: 100%;
     height: 100%;
     text-align: center;
@@ -83,7 +83,7 @@ nav ul li a {
     box-sizing: border-box;
 }
 
-nav ul li a:hover {
+nav > ul > li > a:hover {
     border-color: #535353; 
     background: #6b6b6b;
 }
