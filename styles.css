@@ -28,10 +28,8 @@ div > h1{
 }
 
 div > h2{
-    margin-top: -25px;
-    margin-bottom: 50px;
-    padding-left: 20px;
-
+    margin: 30px;
+    color: black;
 }
 
 /* Menu bar fully to the edge */
@@ -89,12 +87,31 @@ nav > ul > li > a:hover {
     background: #6b6b6b;
 }
 
-body > .line{
-    width: 80%;
-    margin-top: 30px;
+body > div > .line{
+    width: 30px;
+    margin: 30px;
     background-color: #1a1818;
     border-radius: 20px;
-    height: 20px;
-    margin-left: auto;
+    height: 50px;
     margin-right: auto;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    color: black;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.image-pocetna{
+    width: 150%;
+    height: 150%;
+    margin: 30px;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
