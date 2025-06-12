@@ -17,13 +17,14 @@ body{
     text-decoration: none;
 }
 
-body > div{
+body > .heading-div{
     background-color: #1a1818;
 }
 
 div > h1{
     margin-top: 0px;
     padding: 20px;
+    background-color: #1a1818;;
 }
 
 div > h2{
@@ -86,4 +87,14 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     border-color: #535353; 
     background: #6b6b6b;
+}
+
+body > .line{
+    width: 80%;
+    margin-top: 30px;
+    background-color: #1a1818;
+    border-radius: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
